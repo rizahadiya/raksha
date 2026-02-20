@@ -1,0 +1,44 @@
+# .gitignore for Raksha Project
+
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Frontend
+/frontend/build
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# Backend
+/backend/node_modules/
+/backend/npm-debug.log
+/backend/.env.local
+/backend/*.db
+/backend/*.sqlite
+/backend/dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Misc
+.env
+.env.local
