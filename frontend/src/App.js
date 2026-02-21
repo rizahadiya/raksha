@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+// import axios from 'axios'; // Removed unused import
 import './App.css';
 import SOSButton from './components/SOSButton';
 import EmergencyContacts from './components/EmergencyContacts';

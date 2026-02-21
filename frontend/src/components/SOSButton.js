@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { FiAlertCircle, FiCheck, FiX } from 'react-icons/fi';
+import { FiAlertCircle, FiX } from 'react-icons/fi'; // Removed FiCheck (unused)
 import '../styles/SOSButton.css';
 
 const SOSButton = ({ userLocation, locationError, onSOSTriggered }) => {

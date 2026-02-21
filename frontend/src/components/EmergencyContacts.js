@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { FiPlus, FiTrash2, FiEdit2, FiCheck } from 'react-icons/fi';
+import { FiPlus, FiTrash2, FiCheck } from 'react-icons/fi'; // Removed FiEdit2 (unused)
 import '../styles/EmergencyContacts.css';
 
 const EmergencyContacts = () => {
