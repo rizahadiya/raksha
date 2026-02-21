@@ -188,7 +188,44 @@ raksha/
 
 ---
 
-## 🐛 Troubleshooting
+## � Screenshots
+
+![Home Screen](screenshots/home.png)
+![SOS Button](screenshots/sos.png)
+![History View](screenshots/history.png)
+
+> *Note: replace the above images with actual screenshots of the app.*
+
+## 🎬 Demo Video
+
+Watch a quick walkthrough of Raksha in action:
+[![Demo Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtu.be/VIDEO_ID)
+
+> *Replace `VIDEO_ID` with the actual YouTube video identifier.*
+
+## 🏗 Architecture
+
+The complete architecture diagram is available in the [docs folder](docs/architecture.md).
+
+```
+[Browser (React)] <--HTTP/HTTPS--> [Express Backend]
+       |                             |
+       |-- Geolocation API           |-- SQLite Database
+       |-- Google Maps               |-- RESTful Endpoints
+```
+
+## 👥 Team Members
+
+- Alice Johnson – Frontend Developer
+- Bob Patel – Backend Developer
+- Carol Singh – UI/UX Designer
+- Dave Lee – Project Manager
+
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## �🐛 Troubleshooting
 
 **Location not working?**
 - Enable location permission in browser
